@@ -1,0 +1,57 @@
+@import "_colores";
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+a{
+    font-style: none;
+    text-decoration: none;   
+}
+
+/*@extend*/
+ .Texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.titulo{
+    @extend .Texto;
+    color: $colorCuatro;
+    font-size: 40px;
+    font-family: 'Pangolin', cursive;
+}
+.titulo:hover{
+    color: black
+}
+.textos{
+    @extend .Texto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+}
+.TextoCarr{
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.enlace{
+    color: $colorDos;
+}
+
+.encabezado{
+    @extend .Texto;
+    padding-top:50px;
+    color: $colorCinco;
+    font-size: 60px;
+    font-family: 'Neucha', cursive;
+    text-decoration: underline;
+}
+.titulofooter{
+    @extend .Texto;
+    color: white;
+    font-size: 25px;
+    font-family: 'Pangolin', cursive;
+}

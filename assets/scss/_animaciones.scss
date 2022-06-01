@@ -1,0 +1,28 @@
+/*@mixin*/
+@mixin animacionbase{
+    
+    animation-duration:0.5s ;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+.animimag:hover{
+    animation-name: imagen;
+    @include animacionbase;
+}
+@keyframes imagen{
+    0%{
+        
+    }
+    100%{
+       transform: scale(1.02);
+    }
+   
+    
+}
+@media screen and(max-width:990px){
+    .indexbox{
+    flex-direction:column;
+}
+}

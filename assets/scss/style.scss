@@ -1,0 +1,15 @@
+@import "_colores";
+@import "_imagenes";
+@import "_nav";
+@import "_titulos";
+@import "_animaciones";
+@import "_footer";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+    background-color: $colorUno;
+}

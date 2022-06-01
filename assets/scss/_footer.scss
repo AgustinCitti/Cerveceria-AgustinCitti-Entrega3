@@ -1,0 +1,16 @@
+@import "_colores";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+$estilos: (
+  color: $colorTres,
+  centro: center,
+ colorletra: white,
+  Width : 100%,
+);
+
+footer {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, centro);
+  width: map-get($estilos, Width);
+  color: map-get($estilos, colorletra);
+}

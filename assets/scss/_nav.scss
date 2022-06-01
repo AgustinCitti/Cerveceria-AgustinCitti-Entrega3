@@ -1,0 +1,26 @@
+@import "_colores";
+@import "_titulos";
+
+nav{
+    background-color: $colorDos;
+}
+
+li{
+    a{
+        font-family: 'Merienda', cursive;
+        font-size: 25px;
+    
+    }
+    h6{
+        display: flex;
+        font-family: 'Merienda', cursive;
+        font-size: 25px; 
+    }
+}
+#navbarDropdownMenuLink{
+    padding-top: 12px;
+}
+.navbar-brand{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+}
