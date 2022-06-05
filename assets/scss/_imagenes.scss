@@ -24,4 +24,21 @@
         width:100%;
         border-radius: 10px;
         color:white;
+        text-align: center;
      }
+     @media screen and(max-width:990px){
+      .corte{
+         padding-top: 10px;
+         height: 100px;
+         background-attachment: none;
+         background-repeat: repeat;
+  }
+}
+@media screen and(max-width:450px){
+   .corte{
+      
+      height: 80px;
+      background-attachment: none;
+      background-repeat: repeat;
+}
+}

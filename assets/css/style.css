@@ -38,6 +38,24 @@
   width: 100%;
   border-radius: 10px;
   color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+  .corte {
+    padding-top: 10px;
+    height: 100px;
+    background-attachment: none;
+    background-repeat: repeat;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .corte {
+    height: 80px;
+    background-attachment: none;
+    background-repeat: repeat;
+  }
 }
 
 a {
@@ -88,6 +106,65 @@ a {
   color: white;
   font-size: 25px;
   font-family: 'Pangolin', cursive;
+}
+
+.textocorte {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 990px) {
+  .textocorte {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .textocorte {
+    font-size: 40px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .textocorte {
+    font-size: 35px;
+    padding-top: 5px;
+  }
+}
+
+.textocorte2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 990px) {
+  .textocorte2 {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .textocorte2 {
+    font-size: 40px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .textocorte2 {
+    font-size: 35px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .textocorte2 {
+    font-size: 25px;
+    padding-top: 0px;
+  }
 }
 
 nav {
@@ -162,6 +239,65 @@ a {
   color: white;
   font-size: 25px;
   font-family: 'Pangolin', cursive;
+}
+
+.textocorte {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 990px) {
+  .textocorte {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .textocorte {
+    font-size: 40px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .textocorte {
+    font-size: 35px;
+    padding-top: 5px;
+  }
+}
+
+.textocorte2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 990px) {
+  .textocorte2 {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .textocorte2 {
+    font-size: 40px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .textocorte2 {
+    font-size: 35px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .textocorte2 {
+    font-size: 25px;
+    padding-top: 0px;
+  }
 }
 
 /*@mixin*/
